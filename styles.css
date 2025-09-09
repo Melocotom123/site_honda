@@ -1,0 +1,69 @@
+.logo {
+  height: 40px;
+  max-width: 100%;
+}
+
+.hero img {
+  max-height: 600px;
+  object-fit: cover;
+  width: 100%;
+  display: block;
+}
+
+.hero-text h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.hero-text p {
+  font-size: 1.2rem;
+  color: #555;
+  margin-bottom: 1rem;
+}
+
+.card img {
+  height: 220px;
+  object-fit: cover;
+  border-bottom: 1px solid #eee;
+}
+
+.card-title {
+  font-weight: 600;
+  color: #222;
+}
+
+.card-text {
+  color: #666;
+  font-size: 0.95rem;
+}
+
+.btn-danger {
+  background-color: #c00;
+  border-color: #c00;
+  transition: all 0.3s ease;
+}
+
+.btn-danger:hover {
+  background-color: #a00;
+  border-color: #a00;
+}
+
+.btn-outline-danger {
+  border-color: #c00;
+  color: #c00;
+  transition: all 0.3s ease;
+}
+
+.btn-outline-danger:hover {
+  background-color: #c00;
+  color: #fff;
+}
+
+footer {
+  font-size: 0.9rem;
+  color: #555;
+  background: #f8f9fa;
+  padding: 1rem 0;
+  border-top: 1px solid #ddd;
+}
